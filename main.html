@@ -6,9 +6,10 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>	
+<body>
 	<script>
-		function secondHighest(arr) {
+		function main() {
+			function secondHighest(arr) {
 			if (arr.length < 2 || new Set(arr).size === 1) {
     return -Infinity;
   }
@@ -31,6 +32,8 @@
 
   return secondHighest;
 			}
+			
+		}
 		Main();
 	</script>
 
